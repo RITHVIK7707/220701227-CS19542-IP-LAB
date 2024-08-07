@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Image Map</title>
+  </head>
+  <body>
+    <img src="./India map.jpg" alt="India Map" usemap="#map" />
+    <map name="map">
+      <area
+        shape="rect"
+        coords="645,559,714,582"
+        href="https://www.mozilla.org/"
+        title="Kolkata"
+      />
+      <area
+        shape="circle"
+        coords="194,433,72"
+        href="https://www.mozilla.org/"
+        title="Rajasthan"
+      />
+      <area
+        shape="poly"
+        coords="257,807,205,845,225,912,287,909,307,845"
+        href="https://www.mozilla.org/"
+        title="Karanataka"
+      />
+    </map>
+  </body>
+</html>

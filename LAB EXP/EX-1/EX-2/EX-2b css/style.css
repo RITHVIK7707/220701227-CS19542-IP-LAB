@@ -1,0 +1,39 @@
+h1 {
+  color: powderblue;
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  margin: 0; /* Removes default margin */
+  box-sizing: border-box; /* Includes padding in width */
+}
+h1 span {
+  display: block;
+}
+#content {
+  text-align: left;
+  margin: 10px 0; /* Adds spacing between paragraphs */
+}
+.call {
+  text-align: right;
+}
+.new {
+  font-size: 15px;
+}
+.sidebar {
+  height: 100%; /* Removed percentage height */
+  width: 150px;
+  float: left;
+  background-color: lightgray;
+  padding: 20px;
+  box-sizing: border-box; /* Ensures padding is included in width */
+  height: 75vh;
+}
+.sidebar p {
+  margin: 0 0 10px; /* Adds spacing between items */
+}
+.content {
+  margin-left: 180px; /* Adjusts content position to the right of the sidebar */
+  padding: 20px;
+}
